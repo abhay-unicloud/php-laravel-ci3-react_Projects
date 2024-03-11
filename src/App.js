@@ -1,18 +1,19 @@
 
-import './index.css';
-import Square from './Square'; 
-import Board from './Board'; 
+import './App.css';
+// import Form from'./Form';
+// import MyCounter from './Counter';
+import MyNavbar from './Navbar';
+import Myfooter from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-        <Square />
-        <Board />
-       
+        <MyNavbar/>
+      <header className="">
       </header>
+      <Myfooter/>
     </div>
   );
 }
+
 export default App;

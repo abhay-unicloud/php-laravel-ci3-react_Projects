@@ -23,6 +23,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.red{
+  color:red;
+}
+.counters {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:50vh;
+}
 
 .App-link {
   color: #61dafb;
